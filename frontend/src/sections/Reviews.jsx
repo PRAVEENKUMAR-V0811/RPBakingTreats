@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://rpbakingtreats.vercel.app';
+const API_URL = import.meta.env.VITE_API_URL || 'https://rpbakingtreats.onrender.com';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
